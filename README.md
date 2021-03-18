@@ -8,9 +8,9 @@ If you have any questions, feel free to email me on nikolajovisic4@gmail.com and
 Any suggestions are welcome.
 If you want to support me, you can do so in:
 
-BTC: bc1quj380mktce4c4e73rx3r4mvuwpaf2zeswldn4c
-ETH: 0x07e980d3E91Ee4B94ABe0d277846D4AbD3389d53
-ADA: addr1qy4vv23dwgw92yd6uf8x5a7k3dpndxemkz6m9myz79q5xqf2cc4z6usu25gm4cjwdfmadz6rx6dnhv94ktkg9u2pgvqsaf4wqw
+BTC: bc1quj380mktce4c4e73rx3r4mvuwpaf2zeswldn4c \
+ETH: 0x07e980d3E91Ee4B94ABe0d277846D4AbD3389d53 \
+ADA: addr1qy4vv23dwgw92yd6uf8x5a7k3dpndxemkz6m9myz79q5xqf2cc4z6usu25gm4cjwdfmadz6rx6dnhv94ktkg9u2pgvqsaf4wqw \
 LTC: LKHVzSqFThqRhhTEpZpf2LTrAMpjjsUL6X
 
   
