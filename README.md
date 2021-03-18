@@ -1,4 +1,4 @@
-# concypto
+# concypto (CPO)
 
 Conceptual cryptocurrency system written in Python. Contains assignments for practicing Python and basic cryptocurrency knowledge.
 
