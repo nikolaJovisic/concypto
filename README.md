@@ -1,0 +1,2 @@
+# concypto
+ Conceptual cryptocurrency system.
