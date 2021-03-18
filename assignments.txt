@@ -1,0 +1,40 @@
+Assgnment 1 (concypto_v1.py -> concypto_v2.py):
+
+    Update concypto_v1.py in such a way so it supports the following features:
+
+        1. CPO (concypto coin) is distributed in fixed amount to every new user when he joins the system in a special transaction.
+        2. There is no upper limit to total amount of CPOs. 
+        3. Validators do not dispose of any coins.
+        4. Every transaction now contains a list of references to transactions in which sender recieved coins he intends to spend.
+            4a. Only validated transactions can be referenced for spending.
+        5. Whole amount of referenced transactions must be spent, so any surplus is payed back to sender.
+        6. This implies that transaction now, instead of a reciever, contains a list of receivers.
+        7. Malitious users are added. They try to double-spend and to spend more than they have.
+        8. Validators never validate malitious transactions. 
+            8a. Bonus points if you think of a way to make them not iterate trough whole list of previous transactions to check for double-spend.
+
+    ...
+
+    Waiting transaction are in form of a tuple where items are:
+
+        0. Transaction ID
+        1. Sender ID
+        2. List of transactions it is referencing to
+        3. List of tuples (pairs) of:
+            3a. Reciever ID
+            3b. Amount to be sent to 3a
+        4. Time of making this transaction
+
+    Validated transaction are in form of a tuple where items are:
+
+        0. Transaction ID
+        1. Sender ID
+        2. List of transactions it is referencing to
+        3. List of tuples (pairs) of:
+            3a. Reciever ID
+            3b. Amount to be sent to 3a
+        4. Time of making this transaction
+        5. Validator ID
+        6. Time of validation this transaction
+
+    Good luck!

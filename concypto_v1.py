@@ -6,10 +6,13 @@ from time import sleep, time
 '''
 1st version of concypto.
 
-Users and validators are generated randomly in given intervals.
-All transactions of valid amount made by valid sender and sent to valid recievers are considered valid.
-Information on amount of money in the system or money in posession of users and validators is not taken care of.
-Transactions waiting to be validated and validated ones are stored in simple global containers simulating peer-to-peer connection, no blockchain is involved.
+1. Users and validators are generated randomly in given intervals.
+2. All transactions of valid amount made by valid sender and sent to valid recievers are considered valid.
+3. Information on amount of money in the system or money in posession of users and validators is not taken care of.
+4. Transactions waiting to be validated and validated ones are stored in simple global containers simulating peer-to-peer connection.
+5. No blockchain is involved, transactions are simply stored in deque structures.
+
+...
 
 Waiting transaction are in form:
 (sender_id, receiver_id, amount, time_of_making_transaction)
